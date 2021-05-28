@@ -59,7 +59,7 @@ local function TestNav()
 
                 if(entity and _HaveTarget == false and _Navigating == false)then
                     --we found a target, start a combatroutine
-                    --combat routine's will automatically load predetermined logic for simple combat based on player's job
+                    --combat routines will automatically load predetermined logic for simple combat based on player's job
                     dbgprint("found entity " .. entity.Id)
 
                     _CombatRoutine = CombatRoutine(entity.Id)
